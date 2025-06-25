@@ -1,0 +1,62 @@
+@import "tailwindcss";
+
+@font-face{
+    font-family: "MonserratExtraBold";
+    src: url("../assets/fonts/Montserrat-ExtraBold.ttf");
+}
+
+@font-face{
+    font-family: "MonserratMedium";
+    src: url("../assets/fonts/Montserrat-Medium.ttf");
+}
+
+
+@font-face{
+    font-family: "MonserratRegular";
+    src: url("../assets/fonts/Montserrat-Regular.ttf");
+}
+@font-face{
+    font-family: "MonserratSemiBold";
+    src: url("../assets/fonts/Montserrat-SemiBold.ttf");
+}
+@font-face{
+    font-family: "MonserratBold";
+    src: url("../assets/fonts/Montserrat-Bold.ttf");
+}
+
+
+@font-face{
+    font-family: "Lora";
+    src: url("../assets/fonts/Lora-VariableFont_wght.ttf");
+}
+
+@font-face{
+    font-family: "AlexBrush";
+    src: url("../assets/fonts/AlexBrush-Regular.ttf");
+}
+
+@theme{
+    --font-MonserratExtraBold: "MonserratExtraBold", sans-serif;
+    --font-MonserratMedium: "MonserratMedium", sans-serif;
+    --font-MonserratRegular: "MonserratRegular", sans-serif;
+    --font-MonserratSemiBold: "MonserratSemiBold", sans-serif;
+    --font-MonserratBold: "MonserratBold", sans-serif;
+    --font-Lora: "Lora", sans-serif;
+    --font-AlexBrush: 'AlexBrush', sans-serif; 
+    --color-descripcion: #949393;
+    --color-verdeBoton: #60FF3D;
+    --color-verdeClaro: #BCFFAC;
+    --color-RojoTitulo: #FD0100;
+    --color-NegroSubtitulos: #1E1E1E;
+    --color-NegroFondo: #171717;
+    --color-BlancoBoton: #E5E5E5;
+    --color-FondoReseñas:#EDEDED;
+    --color-BanerRojo:#2C0B0D;
+    --color-FondoAzulOscuro: #141E27;
+    --text-size-header-movil: 12px;
+    --text-size-header-tablet: 14px;
+    --text-size-header-Pc: 16px;
+    --tracking-pegado: -0.07em; 
+
+
+}
