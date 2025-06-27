@@ -27,8 +27,6 @@
     --text-5xl--line-height: 1;
     --text-6xl: 3.75rem;
     --text-6xl--line-height: 1;
-    --text-7xl: 4.5rem;
-    --text-7xl--line-height: 1;
     --font-weight-light: 300;
     --font-weight-bold: 700;
     --radius-xl: 0.75rem;
@@ -56,7 +54,6 @@
     --text-size-header-movil: 12px;
     --text-size-header-tablet: 14px;
     --text-size-header-Pc: 16px;
-    --tracking-pegado: -0.07em;
   }
 }
 @layer base {
