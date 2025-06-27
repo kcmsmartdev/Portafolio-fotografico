@@ -3,36 +3,43 @@
 @font-face{
     font-family: "MonserratExtraBold";
     src: url("../assets/fonts/Montserrat-ExtraBold.ttf");
+    font-display: swap;
 }
 
 @font-face{
     font-family: "MonserratMedium";
     src: url("../assets/fonts/Montserrat-Medium.ttf");
+    font-display: swap;
 }
 
 
 @font-face{
     font-family: "MonserratRegular";
     src: url("../assets/fonts/Montserrat-Regular.ttf");
+    font-display: swap;
 }
 @font-face{
     font-family: "MonserratSemiBold";
     src: url("../assets/fonts/Montserrat-SemiBold.ttf");
+    font-display: swap;
 }
 @font-face{
     font-family: "MonserratBold";
     src: url("../assets/fonts/Montserrat-Bold.ttf");
+    font-display: swap;
 }
 
 
 @font-face{
     font-family: "Lora";
     src: url("../assets/fonts/Lora-VariableFont_wght.ttf");
+    font-display: swap;
 }
 
 @font-face{
     font-family: "AlexBrush";
     src: url("../assets/fonts/AlexBrush-Regular.ttf");
+    font-display: swap;
 }
 
 @theme{
