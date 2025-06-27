@@ -256,9 +256,6 @@
   .inline {
     display: inline;
   }
-  .table {
-    display: table;
-  }
   .h-12 {
     height: calc(var(--spacing) * 12);
   }
@@ -331,14 +328,8 @@
   .flex-1 {
     flex: 1;
   }
-  .border-collapse {
-    border-collapse: collapse;
-  }
   .transform {
     transform: var(--tw-rotate-x,) var(--tw-rotate-y,) var(--tw-rotate-z,) var(--tw-skew-x,) var(--tw-skew-y,);
-  }
-  .resize {
-    resize: both;
   }
   .grid-cols-1 {
     grid-template-columns: repeat(1, minmax(0, 1fr));
@@ -391,10 +382,6 @@
   .rounded-xl {
     border-radius: var(--radius-xl);
   }
-  .border {
-    border-style: var(--tw-border-style);
-    border-width: 1px;
-  }
   .border-r-4 {
     border-right-style: var(--tw-border-style);
     border-right-width: 4px;
@@ -414,9 +401,6 @@
   }
   .bg-\[\#C1C1C1\]\/10 {
     background-color: color-mix(in oklab, #C1C1C1 10%, transparent);
-  }
-  .bg-\[\#C1C1C1\]\/20 {
-    background-color: color-mix(in oklab, #C1C1C1 20%, transparent);
   }
   .bg-verdeBoton {
     background-color: var(--color-verdeBoton);
@@ -517,10 +501,6 @@
     --tw-tracking: 4px;
     letter-spacing: 4px;
   }
-  .tracking-pegado {
-    --tw-tracking: var(--tracking-pegado);
-    letter-spacing: var(--tracking-pegado);
-  }
   .text-BlancoBoton {
     color: var(--color-BlancoBoton);
   }
@@ -559,10 +539,6 @@
   }
   .opacity-50 {
     opacity: 50%;
-  }
-  .outline {
-    outline-style: var(--tw-outline-style);
-    outline-width: 1px;
   }
   .transition {
     transition-property: color, background-color, border-color, outline-color, text-decoration-color, fill, stroke, --tw-gradient-from, --tw-gradient-via, --tw-gradient-to, opacity, box-shadow, transform, translate, scale, rotate, filter, -webkit-backdrop-filter, backdrop-filter, display, visibility, content-visibility, overlay, pointer-events;
@@ -803,12 +779,6 @@
       line-height: var(--tw-leading, var(--text-5xl--line-height));
     }
   }
-  .lg\:text-7xl {
-    @media (width >= 64rem) {
-      font-size: var(--text-7xl);
-      line-height: var(--tw-leading, var(--text-7xl--line-height));
-    }
-  }
   .lg\:text-size-header-Pc {
     @media (width >= 64rem) {
       font-size: var(--text-size-header-Pc);
@@ -883,11 +853,6 @@
   syntax: "*";
   inherits: false;
 }
-@property --tw-outline-style {
-  syntax: "*";
-  inherits: false;
-  initial-value: solid;
-}
 @layer properties {
   @supports ((-webkit-hyphens: none) and (not (margin-trim: inline))) or ((-moz-orient: inline) and (not (color:rgb(from red r g b)))) {
     *, ::before, ::after, ::backdrop {
@@ -899,7 +864,6 @@
       --tw-border-style: solid;
       --tw-font-weight: initial;
       --tw-tracking: initial;
-      --tw-outline-style: solid;
     }
   }
 }
