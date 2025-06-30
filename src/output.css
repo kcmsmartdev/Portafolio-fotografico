@@ -8,7 +8,7 @@
     --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
       "Courier New", monospace;
     --color-green-400: oklch(79.2% 0.209 151.711);
-    --color-gray-500: oklch(55.1% 0.027 264.364);
+    --color-gray-300: oklch(87.2% 0.01 258.338);
     --color-gray-700: oklch(37.3% 0.034 259.733);
     --color-black: #000;
     --color-white: #fff;
@@ -49,7 +49,6 @@
     --color-RojoTitulo: #FD0100;
     --color-NegroSubtitulos: #1E1E1E;
     --color-BlancoBoton: #E5E5E5;
-    --color-BanerRojo: #2C0B0D;
     --color-FondoAzulOscuro: #141E27;
     --text-size-header-movil: 12px;
     --text-size-header-tablet: 14px;
@@ -265,6 +264,9 @@
   .h-\[60px\] {
     height: 60px;
   }
+  .h-\[80px\] {
+    height: 80px;
+  }
   .h-\[377px\] {
     height: 377px;
   }
@@ -289,9 +291,6 @@
   .h-\[848px\] {
     height: 848px;
   }
-  .h-auto {
-    height: auto;
-  }
   .h-full {
     height: 100%;
   }
@@ -303,6 +302,9 @@
   }
   .w-60 {
     width: calc(var(--spacing) * 60);
+  }
+  .w-\[100px\] {
+    width: 100px;
   }
   .w-\[321px\] {
     width: 321px;
@@ -387,14 +389,14 @@
     border-bottom-style: var(--tw-border-style);
     border-bottom-width: 4px;
   }
-  .bg-BanerRojo {
-    background-color: var(--color-BanerRojo);
-  }
   .bg-BlancoBoton {
     background-color: var(--color-BlancoBoton);
   }
   .bg-FondoAzulOscuro {
     background-color: var(--color-FondoAzulOscuro);
+  }
+  .bg-RojoTitulo {
+    background-color: var(--color-RojoTitulo);
   }
   .bg-\[\#C1C1C1\]\/10 {
     background-color: color-mix(in oklab, #C1C1C1 10%, transparent);
@@ -404,9 +406,6 @@
   }
   .bg-verdeClaro {
     background-color: var(--color-verdeClaro);
-  }
-  .bg-white {
-    background-color: var(--color-white);
   }
   .object-cover {
     object-fit: cover;
@@ -428,9 +427,6 @@
   }
   .py-3 {
     padding-block: calc(var(--spacing) * 3);
-  }
-  .py-4 {
-    padding-block: calc(var(--spacing) * 4);
   }
   .text-center {
     text-align: center;
@@ -507,23 +503,23 @@
   .text-NegroSubtitulos {
     color: var(--color-NegroSubtitulos);
   }
-  .text-RojoTitulo {
-    color: var(--color-RojoTitulo);
-  }
   .text-black {
     color: var(--color-black);
   }
   .text-descripcion {
     color: var(--color-descripcion);
   }
-  .text-gray-500 {
-    color: var(--color-gray-500);
+  .text-gray-300 {
+    color: var(--color-gray-300);
   }
   .text-gray-700 {
     color: var(--color-gray-700);
   }
   .text-verdeBoton {
     color: var(--color-verdeBoton);
+  }
+  .text-verdeClaro {
+    color: var(--color-verdeClaro);
   }
   .text-white {
     color: var(--color-white);
@@ -744,6 +740,11 @@
       gap: calc(var(--spacing) * 16);
     }
   }
+  .lg\:px-10 {
+    @media (width >= 64rem) {
+      padding-inline: calc(var(--spacing) * 10);
+    }
+  }
   .lg\:px-24 {
     @media (width >= 64rem) {
       padding-inline: calc(var(--spacing) * 24);
@@ -784,37 +785,37 @@
 }
 @font-face {
   font-family: "MonserratExtraBold";
-  src: url("../assets/fonts/Montserrat-ExtraBold.ttf");
+  src: url("/assets/fonts/Montserrat-ExtraBold.ttf") format("woff2");
   font-display: swap;
 }
 @font-face {
   font-family: "MonserratMedium";
-  src: url("../assets/fonts/Montserrat-Medium.ttf");
+  src: url("/assets/fonts/Montserrat-Medium.ttf") format("woff2");
   font-display: swap;
 }
 @font-face {
   font-family: "MonserratRegular";
-  src: url("../assets/fonts/Montserrat-Regular.ttf");
+  src: url("/assets/fonts/Montserrat-Regular.ttf") format("woff2");
   font-display: swap;
 }
 @font-face {
   font-family: "MonserratSemiBold";
-  src: url("../assets/fonts/Montserrat-SemiBold.ttf");
+  src: url("/assets/fonts/Montserrat-SemiBold.ttf") format("woff2");
   font-display: swap;
 }
 @font-face {
   font-family: "MonserratBold";
-  src: url("../assets/fonts/Montserrat-Bold.ttf");
+  src: url("./assets/fonts/Montserrat-Bold.ttf") format("woff2");
   font-display: swap;
 }
 @font-face {
   font-family: "Lora";
-  src: url("../assets/fonts/Lora-VariableFont_wght.ttf");
+  src: url("/assets/fonts/Lora-VariableFont_wght.ttf") format("woff2");
   font-display: swap;
 }
 @font-face {
   font-family: "AlexBrush";
-  src: url("../assets/fonts/AlexBrush-Regular.ttf");
+  src: url("/assets/fonts/AlexBrush-Regular.ttf") format("woff2");
   font-display: swap;
 }
 @property --tw-rotate-x {

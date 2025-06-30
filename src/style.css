@@ -2,43 +2,43 @@
 
 @font-face{
     font-family: "MonserratExtraBold";
-    src: url("../assets/fonts/Montserrat-ExtraBold.ttf");
+    src: url("/assets/fonts/Montserrat-ExtraBold.ttf") format("woff2");
     font-display: swap;
 }
 
 @font-face{
     font-family: "MonserratMedium";
-    src: url("../assets/fonts/Montserrat-Medium.ttf");
+    src: url("/assets/fonts/Montserrat-Medium.ttf") format("woff2");
     font-display: swap;
 }
 
 
 @font-face{
     font-family: "MonserratRegular";
-    src: url("../assets/fonts/Montserrat-Regular.ttf");
+    src: url("/assets/fonts/Montserrat-Regular.ttf") format("woff2");
     font-display: swap;
 }
 @font-face{
     font-family: "MonserratSemiBold";
-    src: url("../assets/fonts/Montserrat-SemiBold.ttf");
+    src: url("/assets/fonts/Montserrat-SemiBold.ttf") format("woff2");
     font-display: swap;
 }
 @font-face{
     font-family: "MonserratBold";
-    src: url("../assets/fonts/Montserrat-Bold.ttf");
+    src: url("./assets/fonts/Montserrat-Bold.ttf") format("woff2");
     font-display: swap;
 }
 
 
 @font-face{
     font-family: "Lora";
-    src: url("../assets/fonts/Lora-VariableFont_wght.ttf");
+    src: url("/assets/fonts/Lora-VariableFont_wght.ttf") format("woff2");
     font-display: swap;
 }
 
 @font-face{
     font-family: "AlexBrush";
-    src: url("../assets/fonts/AlexBrush-Regular.ttf");
+    src: url("/assets/fonts/AlexBrush-Regular.ttf") format("woff2");
     font-display: swap;
 }
 
@@ -57,13 +57,13 @@
     --color-NegroSubtitulos: #1E1E1E;
     --color-NegroFondo: #171717;
     --color-BlancoBoton: #E5E5E5;
-    --color-FondoReseñas:#EDEDED;
-    --color-BanerRojo:#2C0B0D;
+    --color-FondoReseñas: #EDEDED;
+    --color-BanerRojo: #2C0B0D;
     --color-FondoAzulOscuro: #141E27;
     --text-size-header-movil: 12px;
     --text-size-header-tablet: 14px;
     --text-size-header-Pc: 16px;
-    --tracking-pegado: -0.07em; 
+    --tracking-pegado: -0.06em; 
 
 
 }

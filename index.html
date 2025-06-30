@@ -7,13 +7,16 @@
     <title>Portafolio Fotográfico</title>
     <script rel="preload" src="https://kit.fontawesome.com/8c2f1b82d6.js" crossorigin="anonymous" defer></script>
     <link rel="shortcut icon" href="./assets/images/logo-movil.png" type="image/x-icon">
+    <link rel="preload" href="/assets/fonts/Montserrat-Regular.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+    <link rel="preload" href="/assets/fonts/Lora-VariableFont_wght.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+
 </head>
 <body>
     <header class="bg-FondoAzulOscuro w-full flex items-center justify-center p-2">
-        <nav class="bg-white w-full h-[40px] flex justify-between items-center p-3 rounded-4xl lg:w-[1298px] lg:py-2">
-                <a class="hidden lg:block" href="./index.html"><img src="./assets/images/logofotografia.svg" alt="logo fotografia" width="125px" height="30px"></a>
-                <a class="block lg:hidden" href="./index.html"><img src="./assets/images/logo-movil.png" alt="logo fotografia" width="30px" height="30px"></a>
-                <ul class="flex gap-3 text-size-header-movil font-MonserratMedium md:text-size-header-tablet md:gap-8 lg:text-size-header-Pc lg:gap-16">
+        <nav class="w-full h-[40px] flex justify-between items-center p-3 rounded-4xl lg:w-[1298px] lg:py-2">
+                <a class="hidden lg:block" href="./index.html"><img src="./assets/images/logoFotografo.svg" alt="logo fotografia" width="125px" height="30px"></a>
+                <a class="block lg:hidden" href="./index.html"><img src="./assets/images/logomovil.svg" alt="logo fotografia" width="30px" height="30px"></a>
+                <ul class="flex gap-3 text-BlancoBoton text-size-header-movil font-MonserratMedium md:text-size-header-tablet md:gap-8 lg:text-size-header-Pc lg:gap-16">
                     <li class="lg:mr-16" href="#"><i class="fa-solid fa-phone"></i> +01 254 2545552</li>
                     <li href="mailto:franciscoscott@gmail.com"><i class="fa-solid fa-envelope"></i> Franciscoscott@gmail.com</li>
                 </ul>
@@ -37,7 +40,7 @@
 
 
                     <article class="w-full flex flex-col mt-10 gap-10 font-MonserratMedium text-center tracking-[4px] text-NegroSubtitulos lg:flex-row ">
-                        <a href="#" class="w-full h-[60px] bg-verdeBoton rounded-2xl flex items-center  justify-center lg:w-[230px] lg:h-[65px] ">
+                        <a href="#" class="w-full h-[60px] bg-RojoTitulo rounded-2xl flex items-center  text-white justify-center lg:w-[230px] lg:h-[65px] ">
                             PORTAFOLIO
                         </a>
         
@@ -53,13 +56,15 @@
 
                 <div class="w-full hidden   lg:flex items-center justify-center">
                     <img src="./assets/images/camara.svg" alt="images camara" class="opacity-50 hidden lg:block lg:w-[500px] h-[450px]">
+                    
+
                 </div>
 
 
 
             </div>
           
-            <div class="w-full max-w-[1298px] h-auto mb-10 bg-BanerRojo rounded-2xl flex flex-wrap px-5 py-3 justify-between">
+            <div class="w-full max-w-[1298px] mb-10 rounded-2xl flex flex-wrap px-5 py-3 justify-between">
                 <img src="./assets/images/LOGO2.png" alt="images logo" class="w-12 h-12 opacity-50">
                 <img src="./assets/images/LOGO1.png" alt="images logo" class="w-12 h-12 opacity-50">
                 <img src="./assets/images/LOGO3.png" alt="images logo" class="w-12 h-12 opacity-50">
@@ -70,25 +75,20 @@
            
         </section>
 
-        <section class="w-full flex flex-col justify-center items-center px-5 gap-10 mt-10 lg:px-32">
-            <span class="text-4xl text-black font-MonserratBold mt-15">Sobre mi</span>
-            <div class="w-full flex flex-col justify-center gap-5 mt-10 md:flex-row lg:flex-row">
+        <section class="w-full flex flex-col items-center gap-10 bg-FondoAzulOscuro">
+            <div class="w-full  flex flex-col md:flex-row lg:flex-row mt-10">
 
-                <div class="w-full flex justify-center items-center">
-                    
-                        <img src="./assets/images/foto-fotografo.svg" alt="images Personal" class="rounded-2xl" width="500px" height="500px">
-    
-                
+                <div class="w-full  flex justify-center items-center px-5">   
+                        <img src="./assets/images/fotografo2.png" alt="images Personal"  width="400px" height="400px">
                 </div>
                 
-                <div class="w-full flex flex-col justify-start items-start">
-                   
-    
-                    <h2 class="text-3xl md:text-4xl lg:text-5xl mt-10">
-                        ¿Quién es  <span class="text-RojoTitulo font-AlexBrush font-bold">Francisco Graff</span>?
+                <div class="w-full flex flex-col justify-start items-start px-5 lg:px-10">
+                     <span class="text-4xl text-white font-MonserratBold mt-5">Sobre mi</span>
+                    <h2 class="text-3xl text-white md:text-4xl lg:text-5xl mt-5">
+                        ¿Quién es  <span class="text-verdeClaro font-AlexBrush font-bold">Francisco Graff</span>?
                     </h2>
     
-                    <p class="font-MonserratMedium text-gray-500 inline mt-10">
+                    <p class="font-MonserratMedium text-gray-300 inline mt-10">
                         Lorem ipsum dolor sit amet consectetur adipiscing elit feugiat aliquet,
                          massa curabitur pulvinar pharetra ante iaculis eleifend suspendisse eros,
                           rhoncus dictum at eu mi posuere mattis mus. 
@@ -98,18 +98,18 @@
                     </p>
                     
     
-                    <article class="w-full  flex flex-row justify-between items-center gap-5 bg-FondoAzulOscuro p-5 rounded-2xl mt-15">
-                        <span class="px-5 py-4 bg-verdeBoton font-MonserratBold flex flex-col justify-center items-center rounded-2xl">
+                    <article class="w-full  flex flex-row justify-between items-center gap-5  p-5 rounded-2xl mt-15">
+                        <span class="w-[100px] h-[80px] bg-verdeBoton font-MonserratBold flex flex-col justify-center items-center rounded-2xl">
                             +2500
                             <ul class="font-MonserratRegular font-light"><i class="fa-solid fa-camera"></i> Fotos</ul>
                         </span>
-                        <span class="px-5 py-4 bg-verdeClaro font-MonserratBold flex flex-col justify-center items-center rounded-2xl">
+                        <span class="w-[100px] h-[80px] bg-verdeClaro font-MonserratBold flex flex-col justify-center items-center rounded-2xl">
                             +150
                             <ul class="font-MonserratRegular font-light"><i class="fa-solid fa-person"></i> Clientes</ul>
                             
                         </span>
     
-                        <span class="px-5 py-4 bg-verdeClaro font-MonserratBold flex flex-col justify-center items-center rounded-2xl">
+                        <span class="w-[100px] h-[80px] bg-verdeClaro font-MonserratBold flex flex-col justify-center items-center rounded-2xl">
                             +3
                             <ul class="font-MonserratRegular font-light"><i class="fa-solid fa-cake-candles"></i> Años</ul>
                             
@@ -121,7 +121,7 @@
         </section>
 
 
-        <section class="bg-FondoAzulOscuro w-full mt-10  flex flex-col items-center justify-center ">
+        <section class="bg-FondoAzulOscuro w-full flex flex-col items-center justify-center ">
             <span class="text-5xl text-white font-MonserratBold mt-20">Servicios</span>
             <div class="w-full px-5 flex flex-col justify-between items-center mb-20 gap-5 md:flex-row lg:flex-row mt-5 lg:px-32 lg:py-5">
 
