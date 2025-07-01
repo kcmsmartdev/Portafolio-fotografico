@@ -668,11 +668,6 @@
       height: 848px;
     }
   }
-  .sm\:grid-cols-2 {
-    @media (width >= 40rem) {
-      grid-template-columns: repeat(2, minmax(0, 1fr));
-    }
-  }
   .sm\:text-3xl {
     @media (width >= 40rem) {
       font-size: var(--text-3xl);
@@ -801,19 +796,9 @@
       width: fit-content;
     }
   }
-  .lg\:grid-cols-3 {
-    @media (width >= 64rem) {
-      grid-template-columns: repeat(3, minmax(0, 1fr));
-    }
-  }
   .lg\:flex-row {
     @media (width >= 64rem) {
       flex-direction: row;
-    }
-  }
-  .lg\:flex-wrap {
-    @media (width >= 64rem) {
-      flex-wrap: wrap;
     }
   }
   .lg\:items-start {
