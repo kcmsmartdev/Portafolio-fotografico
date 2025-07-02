@@ -14,7 +14,6 @@
     --color-white: #fff;
     --spacing: 0.25rem;
     --container-md: 28rem;
-    --container-6xl: 72rem;
     --text-lg: 1.125rem;
     --text-lg--line-height: calc(1.75 / 1.125);
     --text-2xl: 1.5rem;
@@ -30,7 +29,6 @@
     --font-weight-extralight: 200;
     --font-weight-light: 300;
     --font-weight-bold: 700;
-    --radius-xl: 0.75rem;
     --radius-2xl: 1rem;
     --radius-4xl: 2rem;
     --default-transition-duration: 150ms;
@@ -45,7 +43,6 @@
     --font-Lora: "Lora", sans-serif;
     --font-AlexBrush: 'AlexBrush', sans-serif;
     --color-descripcion: #C1C1C1;
-    --color-verdeBoton: #60FF3D;
     --color-verdeClaro: #BCFFAC;
     --color-RojoTitulo: #FD0100;
     --color-NegroSubtitulos: #1E1E1E;
@@ -244,9 +241,6 @@
   .inline {
     display: inline;
   }
-  .table {
-    display: table;
-  }
   .h-12 {
     height: calc(var(--spacing) * 12);
   }
@@ -316,14 +310,8 @@
   .flex-1 {
     flex: 1;
   }
-  .border-collapse {
-    border-collapse: collapse;
-  }
   .transform {
     transform: var(--tw-rotate-x,) var(--tw-rotate-y,) var(--tw-rotate-z,) var(--tw-skew-x,) var(--tw-skew-y,);
-  }
-  .resize {
-    resize: both;
   }
   .flex-col {
     flex-direction: column;
@@ -366,10 +354,6 @@
   }
   .rounded-4xl {
     border-radius: var(--radius-4xl);
-  }
-  .border {
-    border-style: var(--tw-border-style);
-    border-width: 1px;
   }
   .border-r-4 {
     border-right-style: var(--tw-border-style);
@@ -500,20 +484,8 @@
   .text-NegroSubtitulos {
     color: var(--color-NegroSubtitulos);
   }
-  .text-\[\#\#0FF3D\] {
-    color: ##0FF3D;
-  }
-  .text-\[\#\#60FF3D\] {
-    color: ##60FF3D;
-  }
   .text-\[\#60FF3D\] {
     color: #60FF3D;
-  }
-  .text-\[\#\] {
-    color: #;
-  }
-  .text-\[verdeBoton\] {
-    color: verdeBoton;
   }
   .text-black {
     color: var(--color-black);
@@ -526,9 +498,6 @@
   }
   .text-gray-700 {
     color: var(--color-gray-700);
-  }
-  .text-verdeBoton {
-    color: var(--color-verdeBoton);
   }
   .text-verdeClaro {
     color: var(--color-verdeClaro);
@@ -550,10 +519,6 @@
   }
   .opacity-50 {
     opacity: 50%;
-  }
-  .outline {
-    outline-style: var(--tw-outline-style);
-    outline-width: 1px;
   }
   .transition {
     transition-property: color, background-color, border-color, outline-color, text-decoration-color, fill, stroke, --tw-gradient-from, --tw-gradient-via, --tw-gradient-to, opacity, box-shadow, transform, translate, scale, rotate, filter, -webkit-backdrop-filter, backdrop-filter, display, visibility, content-visibility, overlay, pointer-events;
@@ -738,22 +703,22 @@
 }
 @font-face {
   font-family: "MonserratExtraBold";
-  src: url("/assets/fonts/Montserrat-ExtraBold.ttf") format("woff2");
+  src: url("./assets/fonts/Montserrat-ExtraBold.ttf") format("woff2");
   font-display: swap;
 }
 @font-face {
   font-family: "MonserratMedium";
-  src: url("/assets/fonts/Montserrat-Medium.ttf") format("woff2");
+  src: url("./assets/fonts/Montserrat-Medium.ttf") format("woff2");
   font-display: swap;
 }
 @font-face {
   font-family: "MonserratRegular";
-  src: url("/assets/fonts/Montserrat-Regular.ttf") format("woff2");
+  src: url("./assets/fonts/Montserrat-Regular.ttf") format("woff2");
   font-display: swap;
 }
 @font-face {
   font-family: "MonserratSemiBold";
-  src: url("/assets/fonts/Montserrat-SemiBold.ttf") format("woff2");
+  src: url("./assets/fonts/Montserrat-SemiBold.ttf") format("woff2");
   font-display: swap;
 }
 @font-face {
@@ -763,12 +728,12 @@
 }
 @font-face {
   font-family: "Lora";
-  src: url("/assets/fonts/Lora-VariableFont_wght.ttf") format("woff2");
+  src: url("./assets/fonts/Lora-VariableFont_wght.ttf") format("woff2");
   font-display: swap;
 }
 @font-face {
   font-family: "AlexBrush";
-  src: url("/assets/fonts/AlexBrush-Regular.ttf") format("woff2");
+  src: url("./assets/fonts/AlexBrush-Regular.ttf") format("woff2");
   font-display: swap;
 }
 @property --tw-rotate-x {
@@ -804,11 +769,6 @@
   syntax: "*";
   inherits: false;
 }
-@property --tw-outline-style {
-  syntax: "*";
-  inherits: false;
-  initial-value: solid;
-}
 @layer properties {
   @supports ((-webkit-hyphens: none) and (not (margin-trim: inline))) or ((-moz-orient: inline) and (not (color:rgb(from red r g b)))) {
     *, ::before, ::after, ::backdrop {
@@ -820,7 +780,6 @@
       --tw-border-style: solid;
       --tw-font-weight: initial;
       --tw-tracking: initial;
-      --tw-outline-style: solid;
     }
   }
 }
